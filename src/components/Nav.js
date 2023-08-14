@@ -1,6 +1,6 @@
 import React from 'react';
 import { BiHomeAlt,BiUser} from 'react-icons/bi';
-import { BsFillClipboardDataFill, BsBriefcase, BsChatSquare} from 'react-icons/bs';
+import { /* BsFillClipboardDataFill, */ BsBriefcase, BsChatSquare} from 'react-icons/bs';
 
 //link
 import { Link } from 'react-scroll'
@@ -31,14 +31,14 @@ const Nav = () => {
             <BiUser />
           </Link>
           
-          <Link to='services' 
+          {/* <Link to='services' 
             activeClass='active' 
             smooth={true} 
             spy={true} 
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
             
             <BsFillClipboardDataFill />
-          </Link>
+          </Link> */}
           
           <Link to='work'     
             activeClass='active' 

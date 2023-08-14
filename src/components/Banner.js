@@ -12,6 +12,7 @@ const Banner = () => {
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-6' > 
          {/* text */}
          <div className='flex-1 text-center font-secondary lg:text-left'>
+            <h1>Hi. My name is</h1>
             <motion.h1 
               variants={fadeIn('up', 0.3)} 
               initial='hidden'
@@ -29,13 +30,11 @@ const Banner = () => {
               viewport={{once: false, amount: 0.7}} 
               className='mb-6 text-[20px] lg:text-[40px] font-secondary
               font-semibold uppercase leading-[1]'>
-              <span className='mr-4'>I am a </span>
+              {/* <span className='mr-4'>I am a </span> */}
               <TypeAnimation 
                 sequence={[
                   'Full-Stack Developer',
                   2000,
-                  'ReactJs developer',
-                  2000
                 ]}
                 speed={50}
                 className='text-accent'
@@ -49,10 +48,8 @@ const Banner = () => {
               whileInView={'show'} 
               viewport={{once: false, amount: 0.7}} 
               className='mb-8 max-w-lg mx-auto lg:mx-0'> 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Magnam, beatae mollitia! Aperiam sit reiciendis, quia officiis 
-                quo praesentium aliquam eligendi soluta provident temporibus 
-                blanditiis minus eaque autem voluptatem voluptate veniam!
+                I'm a software engineer specializing in building
+                 digital experiences like Web Applications. 
             </motion.p>
             
             <motion.div
@@ -89,14 +86,14 @@ const Banner = () => {
          </div>
         
         {/* img */}
-         <motion.div
+         {/* <motion.div
           variants={fadeIn('down', 0.5)} 
           initial='hidden'
           whileInView={'show'}
           className='hidden lg:flex flex-2 max-w-[320px] lg:max-w-[480px]'>
           <img src={image} style={{width: '250px', backgroundColor:'gray',borderRadius:'50px'}} alt="" />
           
-         </motion.div>
+         </motion.div> */}
 
         </div>
       </div>
