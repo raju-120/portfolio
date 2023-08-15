@@ -7,9 +7,9 @@ const About = () => {
   
   return (
     
-     <div className='mt-16 lg:mb-96' id='about'>
+     <div className='mt-16 lg:mb-96 min-h-[85vh] lg:min-h-[78vh]' id='about'>
       <h1 className='text-5xl font-semibold text-center'>About Me</h1>
-      <section className='mt-14 flex items-center ' >
+      <section className='mt-14 flex items-center' >
         
         <div className='container mx-auto'>
           <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-6' > 

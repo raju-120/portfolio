@@ -1,12 +1,10 @@
 import React from 'react';
-import {motion} from 'framer-motion';
-import {fadeIn} from '../variants';
 import img1 from '../assets/portfolio-img1.png';
 import img2 from '../assets/portfolio-img2.png';
 
 const Work = () => {
   return (
-    <section className='min-h-[85vh] lg:min-h-[78vh]' id='work'>
+    <section className='min-h-[85vh] lg:min-h-[78vh] mt-24 lg:mb-80' id='work'>
       <h2 className='text-center text-5xl font-bold'>Projects</h2>
       <div className='container mx-auto mt-5'>
           <div className='flex flex-col lg:flex-row gap-x-10'>
@@ -61,7 +59,7 @@ const Work = () => {
                 {/* title */}
                 <div className='absolute -bottom-full left-12
                  group-hover:bottom-14 transition-all duration-700 z-50'>
-                  <span className='text-3xl text-white'>Resell Market</span>
+                  <span className='text-3xl text-white'>Resell</span>
                 </div>
               </div>
               <div className='group relative overflow-hidden border-2

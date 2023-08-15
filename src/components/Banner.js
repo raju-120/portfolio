@@ -1,6 +1,6 @@
 import React from 'react';
-import image  from '../assets/photo.png';
-import {FaGithub, FaInstagram, FaLinkedin, FaWhatsapp} from 'react-icons/fa';
+import {FaGithub, FaInstagram, FaLinkedin} from 'react-icons/fa';
+
 import {TypeAnimation} from 'react-type-animation';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants';
@@ -59,10 +59,11 @@ const Banner = () => {
              viewport={{once: false, amount: 0.7}}
              className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
                 <button className='btn btn-lg'>Contact Me</button>
-                <a href="#" className='text-gradient btn-link'>
+                <a href="#" className='text-white text-xl btn-link'>
                   My Portfolio
                 </a>
             </motion.div>
+            
             {/* social media */}
             <motion.div 
               variants={fadeIn('up', 1)} 
@@ -70,30 +71,20 @@ const Banner = () => {
               whileInView={'show'} 
               viewport={{once: false, amount: 0.7}}
               className='flex text-[20px] gap-x-16 max-w-max mx-auto lg:mx-0'>
-                <a href="#">
+                <a href="https://github.com/raju-120">
                   <FaGithub/>
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/ashfaq-hossen-raju-bbb149a9">
                   <FaLinkedin/>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/ashfaqraju">
                   <FaInstagram/>
                 </a>
-                <a href="#">
-                  <FaWhatsapp/>
-                </a>
+                
             </motion.div>
          </div>
         
-        {/* img */}
-         {/* <motion.div
-          variants={fadeIn('down', 0.5)} 
-          initial='hidden'
-          whileInView={'show'}
-          className='hidden lg:flex flex-2 max-w-[320px] lg:max-w-[480px]'>
-          <img src={image} style={{width: '250px', backgroundColor:'gray',borderRadius:'50px'}} alt="" />
-          
-         </motion.div> */}
+        
 
         </div>
       </div>
