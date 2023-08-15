@@ -11,7 +11,7 @@ const Contact = () => {
             say hi, <br /> I'll try my best to get back to you!
           </p>
           <button className='btn btn-sm mt-20 btn-primary'>
-            <a className='email-link text-2xl'  href='gmailto:ashfaqraju27@gmail.com'>Say Hello !</a>
+            <a className='email-link text-2xl'  href='gmail:ashfaqraju27@gmail.com'>Say Hello !</a>
           </button>
         </div>
         
@@ -19,7 +19,8 @@ const Contact = () => {
       
       <footer className="footer footer-center p-4 text-xl mt-44 text-base-content">
         <div>
-          <p>Copyright © 2023 - All right reserved to Asfak Hossain Raju</p>
+          <p>Copyright © 2023 - All right reserved to <br />
+           <span className='text-xl text-white'>Asfak Hossain Raju</span></p>
         </div>
     </footer>
     </section>

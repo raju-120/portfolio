@@ -7,7 +7,8 @@ import {fadeIn} from '../variants';
 
 const Banner = () => {
   return (
-    <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
+    <div>
+      <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
       <div className='container mx-auto'>
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-6' > 
          {/* text */}
@@ -52,7 +53,7 @@ const Banner = () => {
                  digital experiences like Web Applications. 
             </motion.p>
             
-            <motion.div
+            {/* <motion.div
              variants={fadeIn('up', 0.9)} 
              initial='hidden'
              whileInView={'show'} 
@@ -62,7 +63,7 @@ const Banner = () => {
                 <a href="#" className='text-white text-xl btn-link'>
                   My Portfolio
                 </a>
-            </motion.div>
+            </motion.div> */}
             
             {/* social media */}
             <motion.div 
@@ -89,6 +90,10 @@ const Banner = () => {
         </div>
       </div>
     </section>
+    <div className='' >
+        <h1 className='text-xl rotate-90 'style={{marginLeft:'1000px',position: 'relative'}}>ashfaqraju27@gmail.com</h1>
+      </div>
+    </div>
   );
 };
 
