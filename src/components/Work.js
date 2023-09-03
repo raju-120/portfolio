@@ -1,6 +1,7 @@
 import React from 'react';
 import img1 from '../assets/portfolio-img1.png';
 import img2 from '../assets/portfolio-img2.png';
+import img3 from '../assets/portfolio-img3.png';
 
 import {FaGithub} from 'react-icons/fa';
 import { BiLinkExternal } from "react-icons/bi";
@@ -13,16 +14,16 @@ const Work = () => {
           <div className='flex flex-col lg:flex-row gap-x-10'>
             <div className='flex-1 flex flex-col gap-y-6 mb-10 lg:mb-0'>
               
-              <div>
+              <div className=''>
                 <h2 className='h2 leading-tight text-accent'>
                   My Latest <br />
                   Work.
                 </h2>
                 <p className='max-w-sm mb-16'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                  Odit culpa rerum illum voluptatem aut optio consequuntur 
-                  consequatur dicta velit cumque accusantium deleniti laboriosam
-                  facere porro, excepturi dolorem reiciendis hic! Eos?
+                  Recently, I've been working on working the some new projects.
+                  Those are the project showing as a project demo.If you want checkout
+                  my other projects, please visit on my github account and give me some
+                  feedback.
                 </p>
               </div>
             
@@ -99,7 +100,7 @@ const Work = () => {
                 <div className='group-hover:bg-black/70 w-full h-full absolute
                 z-40 transition-all duration-300'></div>
                 {/* img */}
-                <img src={img1} className='group-hover:scale-125 transition-all duration-500' alt="img1" />
+                <img src={img3} className='group-hover:scale-125 transition-all duration-500' alt="img1" />
                 {/* preTitle */}
                 <div className='absolute -bottom-full left-12
                  group-hover:bottom-24 transition-all duration-500 z-50'>
@@ -108,7 +109,7 @@ const Work = () => {
                 {/* title */}
                 <div className='absolute -bottom-full left-12
                  group-hover:bottom-14 transition-all duration-700 z-50'>
-                  <span className='text-3xl text-white'>Doctor's Portal</span>
+                  <span className='text-3xl text-white'>Genius-Car</span>
                 </div>
                 <div className='absolute -bottom-full left-12
                  group-hover:bottom-10 transition-all duration-1000 z-50 flex'>
@@ -118,7 +119,7 @@ const Work = () => {
                     </a></span>
                   </div>
                   <div className='ml-5'>
-                  <span><a href="https://github.com/raju-120">
+                  <span><a href="https://geniuscar.netlify.app">
                       <BiLinkExternal/>
                     </a></span>
                   </div>

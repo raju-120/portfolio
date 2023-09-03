@@ -10,7 +10,11 @@ const Header = () => {
           <img src={logo} className='w-20' alt="" />
 
           <button className='btn btn-primary'>
-            <a href="">Resume</a>
+            <a 
+              href="https://drive.google.com/file/d/1pzml79V1JUp7dsizpc_gyKzh-tap4qUC/view?usp=sharing"
+              >
+                Resume
+            </a>
           </button>
         </div>
       </div>

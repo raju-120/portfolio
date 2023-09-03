@@ -11,7 +11,7 @@ const Contact = () => {
             say hi, <br /> I'll try my best to get back to you!
           </p>
           <button className='btn btn-sm mt-20 btn-primary'>
-            <a className='email-link text-2xl'  href='gmail:ashfaqraju27@gmail.com'>Say Hello !</a>
+            <a className='email-link text-2xl'  href="mailto:ashfaqraju27@gmail.com">Say Hello !</a>
           </button>
         </div>
         
